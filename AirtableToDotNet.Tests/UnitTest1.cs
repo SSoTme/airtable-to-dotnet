@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
 using airtabletodotnet.Lib.DataClasses;
+using AirtableToDotNet.APIWrapper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using SSoT.me.AirtableToDotNetLib;

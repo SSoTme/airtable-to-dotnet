@@ -101,6 +101,15 @@
       <CarModels>2</CarModels>
     </Manufacturer>
     <Manufacturer>
+      <ManufacturerId>recZvqPdbpxT30WHA</ManufacturerId>
+      <createdTime>2019-02-25T07:07:02Z</createdTime>
+      <CarModels>0</CarModels>
+      <ToDelete>true</ToDelete>
+      <BrandColor>fddf</BrandColor>
+      <Notes>fd</Notes>
+      <Name>dfdfd</Name>
+    </Manufacturer>
+    <Manufacturer>
       <ManufacturerId>recrb94EuzS6vgN3w</ManufacturerId>
       <createdTime>2019-02-18T22:52:43Z</createdTime>
       <BrandColor>this is a new value</BrandColor>

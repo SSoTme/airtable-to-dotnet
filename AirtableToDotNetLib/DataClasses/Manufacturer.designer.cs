@@ -58,6 +58,9 @@ namespace airtabletodotnet.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PresidentName")]
         public String PresidentName { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ToDelete")]
+        public Nullable<Boolean> ToDelete { get; set; }
+    
 
         
 

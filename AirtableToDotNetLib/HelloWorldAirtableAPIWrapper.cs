@@ -1,7 +1,7 @@
 using airtabletodotnet.Lib.DataClasses;
 
 
-namespace AirtableToDotNet.Tests
+namespace AirtableToDotNet.APIWrapper
 {
     /// <summary>
     /// Airtable API Wrapper for the HelloWorld Base
