@@ -62,7 +62,7 @@ namespace AirtableToDotNet.Tests
             var hwaaw = new HelloWorldAirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             var manufacturers = hwaaw.GetManufacturers("Foo");
             var honda = manufacturers.FirstOrDefault(fod => fod.Name.Contains("Honda"));
-            honda.Notes = "this is atest";
+            honda.Notes = "this is a test";
             honda.PresidentName = "CEO Bob";
             hwaaw.Update(honda);
 

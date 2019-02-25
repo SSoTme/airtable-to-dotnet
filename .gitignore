@@ -262,3 +262,4 @@ __pycache__/
 /AirtableToDotNet.Tests/App.config
 /.ssotme/**/*
 /**/*.xslt
+/AirtableToDotNetWindowsFormsApp/App.config

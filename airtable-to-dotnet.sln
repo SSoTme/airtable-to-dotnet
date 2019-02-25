@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SSoT", "SSoT", "{92A545A0-D
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirtableToDotNetWindowsFormsApp", "AirtableToDotNetWindowsFormsApp\AirtableToDotNetWindowsFormsApp.csproj", "{B3E75E24-15B4-4142-B474-2D1AD6EC6A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{6C26DC0C-E84D-48A0-896B-D9B207D2ECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C26DC0C-E84D-48A0-896B-D9B207D2ECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C26DC0C-E84D-48A0-896B-D9B207D2ECC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E75E24-15B4-4142-B474-2D1AD6EC6A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E75E24-15B4-4142-B474-2D1AD6EC6A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E75E24-15B4-4142-B474-2D1AD6EC6A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E75E24-15B4-4142-B474-2D1AD6EC6A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
