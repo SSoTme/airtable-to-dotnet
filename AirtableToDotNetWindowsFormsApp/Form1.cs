@@ -25,12 +25,12 @@ namespace AirtableToDotNetWindowsFormsApp
         private void Form1_Load(object sender, EventArgs e)
         {
             this.hwaaw = new HelloWorldAirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
-            dataGridView1.DataSource = hwaaw.GetResellers("");
+            dataGridView1.DataSource = hwaaw.GetManufacturers("");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var reseller = dataGridView1.SelectedCells[0].OwningRow.DataBoundItem as Reseller;
+            var reseller = dataGridView1.SelectedCells[0].OwningRow.DataBoundItem as Manufacturer;
             hwaaw.Update(reseller);
         }
     }

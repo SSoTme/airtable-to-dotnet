@@ -306,6 +306,7 @@ namespace SSoT.me.AirtableToDotNetLib
             var pluralName = tableName.IsPlural() ? tableName : tableName.Pluralize();
             return this.AddAirtableTable(pluralName, singularName, view);
         }
+        
         private XmlDocument AddAirtableTable(string tableName, string singularName, String view)
         {
             Console.WriteLine("Getting airtable {0}", tableName);

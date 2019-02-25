@@ -197,7 +197,7 @@ namespace AirtableToDotNet.APIWrapper
         /// </summary>
         /// <param name="view">the specific view to pull ModelYears from</param>
         /// <returns>The list of ModelYears from the given view</returns>
-        public IEnumerable<ModelYear> GetModelYears(String view)
+        public IEnumerable<ModelYear> GetModelYears(String view = "")
         {
             var rows = this.GetTableAsAirtableRows("ModelYears", view);
             return rows.ConvertTo<ModelYear>();
@@ -264,7 +264,7 @@ namespace AirtableToDotNet.APIWrapper
         /// </summary>
         /// <param name="view">the specific view to pull Manufacturers from</param>
         /// <returns>The list of Manufacturers from the given view</returns>
-        public IEnumerable<Manufacturer> GetManufacturers(String view)
+        public IEnumerable<Manufacturer> GetManufacturers(String view = "")
         {
             var rows = this.GetTableAsAirtableRows("Manufacturers", view);
             return rows.ConvertTo<Manufacturer>();
@@ -331,7 +331,7 @@ namespace AirtableToDotNet.APIWrapper
         /// </summary>
         /// <param name="view">the specific view to pull Resellers from</param>
         /// <returns>The list of Resellers from the given view</returns>
-        public IEnumerable<Reseller> GetResellers(String view)
+        public IEnumerable<Reseller> GetResellers(String view = "")
         {
             var rows = this.GetTableAsAirtableRows("Resellers", view);
             return rows.ConvertTo<Reseller>();
@@ -398,7 +398,7 @@ namespace AirtableToDotNet.APIWrapper
         /// </summary>
         /// <param name="view">the specific view to pull CarModels from</param>
         /// <returns>The list of CarModels from the given view</returns>
-        public IEnumerable<CarModel> GetCarModels(String view)
+        public IEnumerable<CarModel> GetCarModels(String view = "")
         {
             var rows = this.GetTableAsAirtableRows("CarModels", view);
             return rows.ConvertTo<CarModel>();

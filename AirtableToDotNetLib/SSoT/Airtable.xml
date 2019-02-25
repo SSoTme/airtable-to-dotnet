@@ -70,25 +70,36 @@
     <Manufacturer>
       <ManufacturerId>rec2hsE1OJy8m4sJa</ManufacturerId>
       <createdTime>2019-02-18T22:53:03Z</createdTime>
-      <BrandColor>REd</BrandColor>
-      <Notes>this is atest</Notes>
       <YearFounded>1955</YearFounded>
       <Resellers>recgqNDO38WrvNkzV</Resellers>
       <Resellers>recZLrkQrb1Lj5buS</Resellers>
-      <Total>2338.8175009056272</Total>
-      <LastUnitTest>2019-02-25T06:53:24.939Z</LastUnitTest>
+      <Total>2578.5462947484539</Total>
+      <LastUnitTest>2019-02-25T07:09:40.161Z</LastUnitTest>
       <Name>Honda</Name>
       <Products>recLf2Ygg4uQX9m51</Products>
       <Products>recyyxLe78RyiyaUJ</Products>
       <Products>rec95q02Sk8LkCetn</Products>
       <Rate>1.05</Rate>
       <CarModels>3</CarModels>
-      <PresidentName>CEO Bob</PresidentName>
+      <Notes>this is a test</Notes>
+      <PresidentName>dddd</PresidentName>
+    </Manufacturer>
+    <Manufacturer>
+      <ManufacturerId>recCRmLdg2oyNkghX</ManufacturerId>
+      <createdTime>2019-02-25T07:27:18Z</createdTime>
+      <CarModels>0</CarModels>
+    </Manufacturer>
+    <Manufacturer>
+      <ManufacturerId>recF8tkfz4ptS2YV3</ManufacturerId>
+      <createdTime>2019-02-25T07:27:03Z</createdTime>
+      <CarModels>0</CarModels>
+      <Name>sdfdsf</Name>
+      <Notes>fdsf</Notes>
+      <ToDelete>true</ToDelete>
     </Manufacturer>
     <Manufacturer>
       <ManufacturerId>recOFZ4m7vchQKbaV</ManufacturerId>
       <createdTime>2019-02-18T22:53:12Z</createdTime>
-      <BrandColor>blue</BrandColor>
       <Notes>Mizubishi</Notes>
       <YearFounded>1980</YearFounded>
       <Total>1500</Total>
@@ -101,18 +112,8 @@
       <CarModels>2</CarModels>
     </Manufacturer>
     <Manufacturer>
-      <ManufacturerId>recZvqPdbpxT30WHA</ManufacturerId>
-      <createdTime>2019-02-25T07:07:02Z</createdTime>
-      <CarModels>0</CarModels>
-      <ToDelete>true</ToDelete>
-      <BrandColor>fddf</BrandColor>
-      <Notes>fd</Notes>
-      <Name>dfdfd</Name>
-    </Manufacturer>
-    <Manufacturer>
       <ManufacturerId>recrb94EuzS6vgN3w</ManufacturerId>
       <createdTime>2019-02-18T22:52:43Z</createdTime>
-      <BrandColor>this is a new value</BrandColor>
       <Notes>Toyota is a something or other</Notes>
       <YearFounded>1967</YearFounded>
       <Resellers>recgqNDO38WrvNkzV</Resellers>
@@ -154,7 +155,7 @@
       <createdTime>2019-02-21T02:53:27Z</createdTime>
       <Manufacturer>recrb94EuzS6vgN3w</Manufacturer>
       <Manufacturer>rec2hsE1OJy8m4sJa</Manufacturer>
-      <Name>FL</Name>
+      <Name>ASDF</Name>
       <Employees>3</Employees>
     </Reseller>
   </Resellers>
