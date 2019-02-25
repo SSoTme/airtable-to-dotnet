@@ -52,7 +52,7 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "6d0b028f-6236-468a-9326-2f3d1a0e4c46",
       "Name": "AirtableToXml",
-      "RelativePath": "/AirtableToDotNet.Tests/ODXML",
+      "RelativePath": "/AirtableToDotNetLib/SSoT",
       "CommandLine": "airtable/airtable-to-xml -p baseId=appyhoDEvp8Tn9ozf"
     },
     {
@@ -89,8 +89,8 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "a536e1ac-c472-4db9-99fb-cc37ed94d7a2",
       "Name": "AirtableXmlToOdxml",
-      "RelativePath": "/AirtableToDotNet.Tests/ODXML",
-      "CommandLine": "airtable/airtable-xml-to-odxml -i airtable.xml"
+      "RelativePath": "/AirtableToDotNetLib/ODXML",
+      "CommandLine": "airtable/airtable-xml-to-odxml -i ..\\SSoT\\airtable.xml"
     },
     {
       "MatchedTranspiler": {
@@ -126,10 +126,10 @@
         ]
       },
       "CLIHandler": null,
-      "ProjectTranspilerId": "6183b8cd-b34b-4e0b-aafc-f9c2fed3837f",
+      "ProjectTranspilerId": "1897d696-d517-4694-88b7-d86b9c93aef5",
       "Name": "OdxmlToCSharpPOCOs",
-      "RelativePath": "/AirtableToDotNet.Tests/DataClasses",
-      "CommandLine": "odxml42/odxml-to-csharp-pocos -i .\\..\\ODXML\\Airtable.odxml"
+      "RelativePath": "/AirtableToDotNetLib/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i .\\..\\ODXML\\Airtable.odxml  -p include-collections=false"
     }
   ]
 }

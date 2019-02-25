@@ -9,7 +9,6 @@ using airtabletodotnet.Lib.DataClasses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using SSoT.me.AirtableToDotNetLib;
-using SSoT.me.AirtableToDotNetLib.Extensions;
 
 namespace AirtableToDotNet.Tests
 {
@@ -19,14 +18,14 @@ namespace AirtableToDotNet.Tests
         [TestMethod]
         public void CreateWrapper()
         {
-            var aaw = new AirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
+            var aaw = new AirtableAPIWrapperBase(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             Assert.IsNotNull(aaw);
         }
 
         [TestMethod]
         public void GetSpecificTableAsJson()
         {
-            var aaw = new AirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
+            var aaw = new AirtableAPIWrapperBase(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             var json = aaw.GetTableAsJson("Manufacturers");
             Console.WriteLine(json);
         }
@@ -34,7 +33,7 @@ namespace AirtableToDotNet.Tests
         [TestMethod]
         public void GetSpecificTableAsXml()
         {
-            var aaw = new AirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
+            var aaw = new AirtableAPIWrapperBase(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             var xmlDoc = aaw.GetTableAsXmlDocument("Manufacturers");
             Console.WriteLine(xmlDoc.OuterXml);
         }
@@ -42,7 +41,7 @@ namespace AirtableToDotNet.Tests
         [TestMethod]
         public void GetSpecificTableAsAirtableRows()
         {
-            var aaw = new AirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
+            var aaw = new AirtableAPIWrapperBase(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             IEnumerable<AirtableRow> rows = aaw.GetTableAsAirtableRows("Manufacturers");
             Console.WriteLine(JsonConvert.SerializeObject(rows, Formatting.Indented));
 
@@ -59,11 +58,16 @@ namespace AirtableToDotNet.Tests
         [TestMethod]
         public void CheckManufacturers()
         {
-            var hwaaw = new HelloWorldAAW(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
+            var hwaaw = new HelloWorldAirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             var manufacturers = hwaaw.GetManufacturers("Foo");
             var honda = manufacturers.FirstOrDefault(fod => fod.Name.Contains("Honda"));
             honda.Notes = "this is atest";
+            honda.PresidentName = "CEO Bob";
             hwaaw.Update(honda);
+
+
+            var manufsToDelete = manufacturers.Where(whereManuf => whereManuf.ToDelete.HasValue && whereManuf.ToDelete.Value);
+            manufsToDelete.ToList().ForEach(feManufToDelete => hwaaw.Delete(feManufToDelete));
         }
 
 

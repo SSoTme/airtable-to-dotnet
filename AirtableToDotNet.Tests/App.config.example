@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <appSettings>
-    <add key="apiKey" value="123"/>
-    <add key="baseId" value="123"/>
+    <add key="apiKey" value="YOUR API KEY GOES HERE"/>
+    <!-- Sample code based on this airtable base: https://airtable.com/shrhoZz2uBQEOn7pD -->
+    <add key="baseId" value="YOUR BASE ID"/>
   </appSettings>
 </configuration>

@@ -54,27 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataClasses\CarModel.cs" />
-    <Compile Include="DataClasses\CarModel.designer.cs">
-      <DependentUpon>CarModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DataClasses\CoreLibraryExtensions.cs" />
-    <Compile Include="DataClasses\Manufacturer.cs" />
-    <Compile Include="DataClasses\Manufacturer.designer.cs">
-      <DependentUpon>Manufacturer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DataClasses\ModelYear.cs" />
-    <Compile Include="DataClasses\ModelYear.designer.cs">
-      <DependentUpon>ModelYear.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DataClasses\Reseller.cs" />
-    <Compile Include="DataClasses\Reseller.designer.cs">
-      <DependentUpon>Reseller.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HelloWorldAAW.cs" />
-    <Compile Include="HelloWorldAAW.designer.cs">
-      <DependentUpon>HelloWorldAAW.cs</DependentUpon>
-    </Compile>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,8 +62,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="App.config" />
-    <None Include="ODXML\Airtable.odxml" />
-    <None Include="ODXML\Xsd.odxml" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,10 +69,6 @@
       <Project>{4B48569C-1657-4D03-8107-E09BAE713F7F}</Project>
       <Name>AirtableToDotNetLib</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ODXML\Airtable.xml" />
-    <Content Include="ODXML\AirtableSummary.txt" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

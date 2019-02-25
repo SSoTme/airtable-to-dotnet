@@ -45,13 +45,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirtableAPIWrapper.cs" />
-    <Compile Include="AirtableRow.cs" />
-    <Compile Include="Extensions\AirtableExtensions.cs" />
+    <Compile Include="AirtableAPIWrapperBase.cs" />
+    <Compile Include="AirtableExtensions.cs" />
+    <Compile Include="DataClasses\CarModel.cs" />
+    <Compile Include="DataClasses\CarModel.designer.cs">
+      <DependentUpon>CarModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses\CoreLibraryExtensions.cs" />
+    <Compile Include="DataClasses\Manufacturer.cs" />
+    <Compile Include="DataClasses\Manufacturer.designer.cs">
+      <DependentUpon>Manufacturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses\ModelYear.cs" />
+    <Compile Include="DataClasses\ModelYear.designer.cs">
+      <DependentUpon>ModelYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses\Reseller.cs" />
+    <Compile Include="DataClasses\Reseller.designer.cs">
+      <DependentUpon>Reseller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelloWorldAirtableAPIWrapper.cs" />
+    <Compile Include="HelloWorldAirtableAPIWrapper.designer.cs">
+      <DependentUpon>HelloWorldAirtableAPIWrapper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ODXML\Airtable.odxml" />
+    <None Include="ODXML\Xsd.odxml" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ODXML\Airtable.xml" />
+    <Content Include="ODXML\AirtableSummary.txt" />
+    <Content Include="SSoT\Airtable.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
