@@ -1,0 +1,135 @@
+{
+  "HiddenPaths": [],
+  "ExpandedPaths": [],
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "CurrentPath": null,
+  "SaveDisabled": false,
+  "SSoTmeProjectId": "6d443d1c-8a6b-45fe-898b-52c0e9e9d290",
+  "Name": "airtable-to-dotnet",
+  "RootPath": "C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\airtable-to-dotnet",
+  "ProjectSettings": [
+    {
+      "ProjectSettingId": "f6d55354-8243-4e85-be14-f8cac0b53063",
+      "Name": "project-name",
+      "Value": "airtable-to-dotnet"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "19d8142a-2f4d-46ac-9de6-77441f233192",
+        "AccountHolderId": "c2bb89f9-26da-4ebf-9d35-0c4547eb89e2",
+        "Name": "AirtableToXml",
+        "DisplayName": "Airtable To Xml",
+        "Description": "Extracts the contents of an airtable base as a single Xml file.",
+        "CreatedOn": "2018-04-07T21:28:06.273",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-IRUHFp3DWm_1ZMkImWGFKw",
+        "LowerName": "airtabletoxml",
+        "UpperName": "AIRTABLETOXML",
+        "LowerHyphenName": "airtable-to-xml",
+        "InputDescriptionMD": "-p baseId={the base id} -p apiKey={your api key}",
+        "OutputDescriptionMD": "Airtable.xml",
+        "ExampleMD": "",
+        "InputFileTypeId": "2748dae4-2e34-44b1-a268-554f2b1c3330",
+        "OutputFileTypeId": "8c1bfcc6-a4de-4604-b785-9aa677c5302a",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "7f5dec02-6a37-4a68-9f32-ba0b5c79b495",
+            "TranspilerId": "19d8142a-2f4d-46ac-9de6-77441f233192",
+            "Name": "v1",
+            "CreatedOn": "2018-04-07T21:28:32.023",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "6d0b028f-6236-468a-9326-2f3d1a0e4c46",
+      "Name": "AirtableToXml",
+      "RelativePath": "/AirtableToDotNet.Tests/ODXML",
+      "CommandLine": "airtable/airtable-to-xml -p baseId=appyhoDEvp8Tn9ozf"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "115c5d82-5cb8-4765-80df-32468b589fd5",
+        "AccountHolderId": "c2bb89f9-26da-4ebf-9d35-0c4547eb89e2",
+        "Name": "AirtableXmlToOdxml",
+        "DisplayName": "Airtable Xml To Odxml",
+        "Description": "Airtable Xml To Odxml",
+        "CreatedOn": "2018-04-08T14:09:08.08",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-Ht8ctlrbL5byiQ07jminbg",
+        "LowerName": "airtablexmltoodxml",
+        "UpperName": "AIRTABLEXMLTOODXML",
+        "LowerHyphenName": "airtable-xml-to-odxml",
+        "ReadMeMD": "$include-system-entities = 'false'\r\n$project-name = 'dbo'",
+        "InputFileTypeId": "8c1bfcc6-a4de-4604-b785-9aa677c5302a",
+        "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "c9eeec93-8f40-472c-8828-d92830e5d9c0",
+            "TranspilerId": "115c5d82-5cb8-4765-80df-32468b589fd5",
+            "Name": "v1",
+            "CreatedOn": "2018-04-08T14:09:47.173",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "a536e1ac-c472-4db9-99fb-cc37ed94d7a2",
+      "Name": "AirtableXmlToOdxml",
+      "RelativePath": "/AirtableToDotNet.Tests/ODXML",
+      "CommandLine": "airtable/airtable-xml-to-odxml -i airtable.xml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToCSharpPOCOs",
+        "DisplayName": "Odxml To C Sharp P O C Os",
+        "Description": "Odxml To CSharp POCOs",
+        "CreatedOn": "2017-09-07T17:35:30.24",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-_TaqhLMvz71hvl2jPygybA",
+        "LowerName": "odxmltocsharppocos",
+        "UpperName": "ODXMLTOCSHARPPOCOS",
+        "LowerHyphenName": "odxml-to-c-sharp-p-o-c-os",
+        "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "Category": "dot-net",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "a52a5130-bd3c-4974-8def-374cd52a4592",
+            "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+            "Name": "v1",
+            "CreatedOn": "2017-09-07T17:35:33.567",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "6183b8cd-b34b-4e0b-aafc-f9c2fed3837f",
+      "Name": "OdxmlToCSharpPOCOs",
+      "RelativePath": "/AirtableToDotNet.Tests/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i .\\..\\ODXML\\Airtable.odxml"
+    }
+  ]
+}
