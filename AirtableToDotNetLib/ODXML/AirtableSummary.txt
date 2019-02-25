@@ -33,8 +33,6 @@ Entities for airtable-to-dotnet:
 
 -recOFZ4m7vchQKbaV/Manufacturers
 
--recdIr4zbvODbylxL/Manufacturers
-
 -recrb94EuzS6vgN3w/Manufacturers
 
 -rec7bmv6laIwChmhP/Resellers

@@ -75,14 +75,15 @@
       <YearFounded>1955</YearFounded>
       <Resellers>recgqNDO38WrvNkzV</Resellers>
       <Resellers>recZLrkQrb1Lj5buS</Resellers>
-      <Total>2121.3764180549906</Total>
-      <LastUnitTest>2019-02-25T06:02:35.227Z</LastUnitTest>
+      <Total>2338.8175009056272</Total>
+      <LastUnitTest>2019-02-25T06:53:24.939Z</LastUnitTest>
       <Name>Honda</Name>
       <Products>recLf2Ygg4uQX9m51</Products>
       <Products>recyyxLe78RyiyaUJ</Products>
       <Products>rec95q02Sk8LkCetn</Products>
       <Rate>1.05</Rate>
       <CarModels>3</CarModels>
+      <PresidentName>CEO Bob</PresidentName>
     </Manufacturer>
     <Manufacturer>
       <ManufacturerId>recOFZ4m7vchQKbaV</ManufacturerId>
@@ -98,14 +99,6 @@
       <Products>rec5qffZqWQGqzfxu</Products>
       <Rate>1.025</Rate>
       <CarModels>2</CarModels>
-    </Manufacturer>
-    <Manufacturer>
-      <ManufacturerId>recdIr4zbvODbylxL</ManufacturerId>
-      <createdTime>2019-02-25T06:02:15Z</createdTime>
-      <ToDelete>true</ToDelete>
-      <Notes>fdsfdsfdfd</Notes>
-      <Name>dfd copy copy</Name>
-      <CarModels>0</CarModels>
     </Manufacturer>
     <Manufacturer>
       <ManufacturerId>recrb94EuzS6vgN3w</ManufacturerId>

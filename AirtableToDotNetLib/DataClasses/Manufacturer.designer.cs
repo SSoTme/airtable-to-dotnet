@@ -31,9 +31,6 @@ namespace airtabletodotnet.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "createdTime")]
         public Nullable<DateTime> createdTime { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ToDelete")]
-        public Nullable<Boolean> ToDelete { get; set; }
-    
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "BrandColor")]
         public String BrandColor { get; set; }
     
@@ -52,14 +49,14 @@ namespace airtabletodotnet.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Name")]
         public String Name { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PresidentName")]
-        public String PresidentName { get; set; }
-    
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Rate")]
         public Nullable<decimal> Rate { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "CarModels")]
         public Nullable<Int32> CarModels { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PresidentName")]
+        public String PresidentName { get; set; }
     
 
         

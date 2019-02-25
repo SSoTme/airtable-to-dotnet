@@ -130,6 +130,39 @@
       "Name": "OdxmlToCSharpPOCOs",
       "RelativePath": "/AirtableToDotNetLib/DataClasses",
       "CommandLine": "odxml42/odxml-to-csharp-pocos -i .\\..\\ODXML\\Airtable.odxml  -p include-collections=false"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "afaca05a-9a55-4d7b-8f0d-6edb152aad13",
+        "AccountHolderId": "c2bb89f9-26da-4ebf-9d35-0c4547eb89e2",
+        "Name": "OdxmlToDotNetAirtableAPIWrapper",
+        "DisplayName": "Odxml To Dot Net Airtable A P I Wrapper",
+        "Description": "Odxml To DotNet Airtable API Wrapper",
+        "CreatedOn": "2019-02-25T06:22:43.62",
+        "IsActive": true,
+        "LowerName": "odxmltodotnetairtableapiwrapper",
+        "UpperName": "ODXMLTODOTNETAIRTABLEAPIWRAPPER",
+        "LowerHyphenName": "odxml-to-dot-net-airtable-a-p-i-wrapper",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "f73eaa46-6c3d-4b2f-89a3-2b90998c59c9",
+            "TranspilerId": "afaca05a-9a55-4d7b-8f0d-6edb152aad13",
+            "Name": "v1",
+            "CreatedOn": "2019-02-25T06:22:50.133",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "57518306-17f9-4eb4-9cbd-c24ae11388a3",
+      "Name": "OdxmlToDotNetAirtableAPIWrapper",
+      "RelativePath": "/AirtableToDotNetLib",
+      "CommandLine": "airtable/odxml-to-dotnet-airtable-api-wrapper -i .\\ODXML\\Airtable.odxml -p name=HelloWorld"
     }
   ]
 }
