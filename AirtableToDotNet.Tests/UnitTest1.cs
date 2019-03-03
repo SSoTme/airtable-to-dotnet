@@ -50,7 +50,6 @@ namespace AirtableToDotNet.Tests
             Console.WriteLine(JsonConvert.SerializeObject(manufacturers, Formatting.Indented));
 
             var manuf = manufacturers.First();
-            manuf.Total = manuf.Total * manuf.Rate;     
             manuf.LastUnitTest = DateTime.Now;
             manuf.CarModels = null;
             aaw.UpdateAirtableRow("Manufacturers", manuf);
@@ -62,13 +61,12 @@ namespace AirtableToDotNet.Tests
             var hwaaw = new HelloWorldAirtableAPIWrapper(ConfigurationManager.AppSettings["apiKey"], ConfigurationManager.AppSettings["baseId"]);
             var manufacturers = hwaaw.GetManufacturers("Foo");
             var honda = manufacturers.FirstOrDefault(fod => fod.Name.Contains("Honda"));
-            honda.Notes = "this is a test";
-            honda.PresidentName = "CEO Bob";
+            honda.Notes = "Something else";
             hwaaw.Update(honda);
 
 
-            var manufsToDelete = manufacturers.Where(whereManuf => whereManuf.ToDelete.HasValue && whereManuf.ToDelete.Value);
-            manufsToDelete.ToList().ForEach(feManufToDelete => hwaaw.Delete(feManufToDelete));
+            //var manufsToDelete = manufacturers.Where(whereManuf => whereManuf.ToDelete.HasValue && whereManuf.ToDelete.Value);
+            //manufsToDelete.ToList().ForEach(feManufToDelete => hwaaw.Delete(feManufToDelete));
         }
 
 

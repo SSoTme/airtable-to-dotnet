@@ -70,62 +70,40 @@
     <Manufacturer>
       <ManufacturerId>rec2hsE1OJy8m4sJa</ManufacturerId>
       <createdTime>2019-02-18T22:53:03Z</createdTime>
-      <YearFounded>1955</YearFounded>
+      <Notes>Something else</Notes>
       <Resellers>recgqNDO38WrvNkzV</Resellers>
       <Resellers>recZLrkQrb1Lj5buS</Resellers>
-      <Total>2578.5462947484539</Total>
-      <LastUnitTest>2019-02-25T07:09:40.161Z</LastUnitTest>
+      <Foo>Widget1</Foo>
+      <LastUnitTest>2019-02-25T21:40:47.295Z</LastUnitTest>
       <Name>Honda</Name>
       <Products>recLf2Ygg4uQX9m51</Products>
       <Products>recyyxLe78RyiyaUJ</Products>
       <Products>rec95q02Sk8LkCetn</Products>
-      <Rate>1.05</Rate>
       <CarModels>3</CarModels>
-      <Notes>this is a test</Notes>
-      <PresidentName>dddd</PresidentName>
-    </Manufacturer>
-    <Manufacturer>
-      <ManufacturerId>recCRmLdg2oyNkghX</ManufacturerId>
-      <createdTime>2019-02-25T07:27:18Z</createdTime>
-      <CarModels>0</CarModels>
-    </Manufacturer>
-    <Manufacturer>
-      <ManufacturerId>recF8tkfz4ptS2YV3</ManufacturerId>
-      <createdTime>2019-02-25T07:27:03Z</createdTime>
-      <CarModels>0</CarModels>
-      <Name>sdfdsf</Name>
-      <Notes>fdsf</Notes>
-      <ToDelete>true</ToDelete>
     </Manufacturer>
     <Manufacturer>
       <ManufacturerId>recOFZ4m7vchQKbaV</ManufacturerId>
       <createdTime>2019-02-18T22:53:12Z</createdTime>
       <Notes>Mizubishi</Notes>
-      <YearFounded>1980</YearFounded>
-      <Total>1500</Total>
+      <Foo>2Widget2</Foo>
       <LastUnitTest>2019-02-02T19:15:00Z</LastUnitTest>
       <Name>Mitubishi</Name>
-      <PresidentName>James</PresidentName>
       <Products>recvZNv1tLuqlOIeZ</Products>
       <Products>rec5qffZqWQGqzfxu</Products>
-      <Rate>1.025</Rate>
       <CarModels>2</CarModels>
     </Manufacturer>
     <Manufacturer>
       <ManufacturerId>recrb94EuzS6vgN3w</ManufacturerId>
       <createdTime>2019-02-18T22:52:43Z</createdTime>
       <Notes>Toyota is a something or other</Notes>
-      <YearFounded>1967</YearFounded>
       <Resellers>recgqNDO38WrvNkzV</Resellers>
       <Resellers>recZLrkQrb1Lj5buS</Resellers>
-      <Total>2000</Total>
+      <Foo>Widgdet 3</Foo>
       <LastUnitTest>2019-02-02T19:15:00Z</LastUnitTest>
       <Name>Toyota</Name>
-      <PresidentName>Linda</PresidentName>
       <Products>recLf2Ygg4uQX9m51</Products>
       <Products>recyyxLe78RyiyaUJ</Products>
       <Products>rec95q02Sk8LkCetn</Products>
-      <Rate>1.085</Rate>
       <CarModels>3</CarModels>
     </Manufacturer>
   </Manufacturers>
